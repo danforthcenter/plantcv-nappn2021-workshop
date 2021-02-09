@@ -1,5 +1,7 @@
 # NAPPN 2021 Conference PlantCV virtual workshop materials
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/danforthcenter/plantcv-nappn2021-workshop.git/main)
+
 This repository contains materials used in the PlantCV workshop (February 16, 2021 from 8:30am to 11:00am CST) in the 2021 NAPPN Annual Conference (https://www.nappn2021.org/).
 
 ## Image analysis in Python with PlantCV
