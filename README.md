@@ -24,6 +24,26 @@ and [Noah Fahlgren](https://www.danforthcenter.org/our-work/principal-investigat
 
 **Twitter**: [@plantcv](https://twitter.com/plantcv)
 
+### Detailed outline
+
+1. The `START_HERE.ipynb` is a Jupyter notebook template for building a PlantCV workflow.
+We will start here and fill it out together. `completed_multi_plant_notebook.ipynb` is
+a completed workflow that you can use as a reference or if you follow the workshop
+afterwards.
+2. We will use the Terminal to convert the finished workflow into a Python script using
+the command `jupyter nbconvert --to python START_HERE.ipynb`.
+3. We will edit the Python script to polish it into a functioning workflow script.
+`completed_multi_plant_notebook.py` is included as a reference.
+4. We will use the notebook `parallel_configuration.ipynb` to create a configuration
+template and use Jupyter's text editor to edit it. `multi-plant-analysis.config` is
+included as a reference.
+5. We will use the Terminal to run our workflow on the full image dataset using the
+command `plantcv-workflow.py --config multi-plant-analysis.config`.
+6. The output of running PlantCV on the full dataset is included in `multi-plant-results.json`.
+7. We will convert the JSON output file to comma-separated (CSV) format using the
+Terminal and the command `plantcv-utils.py json2csv -j multi-plant-results.json -c results`.
+8. We will use the notebook `plot_results.ipynb` to visualize the results.
+
 ## Citations
 Veley KM, Berry JC, Fentress SJ, Schachtman DP, Baxter I, Bart R. 2017. High-throughput profiling and analysis of plant responses over time to abiotic stress. Plant direct 1:e00023. DOI: [10.1002/pld3.23](https://doi.org/10.1002/pld3.23).
 
